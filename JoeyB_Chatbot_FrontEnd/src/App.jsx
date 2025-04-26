@@ -50,7 +50,7 @@ function App() {
     <>
       <div id="prompt">
         <input id="messageInput" contentEditable></input>
-        <button id="submit" onClick={handleSubmit}></button>    
+        <button id="submit" onClick={handleSubmit}>↵</button>    
       </div>
     </>
   )
